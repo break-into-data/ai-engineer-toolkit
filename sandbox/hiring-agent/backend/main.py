@@ -28,6 +28,7 @@ app.add_middleware(
 openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 firecrawl_app = FirecrawlApp(api_key=os.getenv("FIRECRAWL_API_KEY"))
 
+
 def call_llm(messages: list, response_format: Any) -> str:
     params = {"model": "gpt-4o-2024-08-06", "messages": messages}
     if response_format:
@@ -36,12 +37,15 @@ def call_llm(messages: list, response_format: Any) -> str:
     response = openai_client.beta.chat.completions.parse(**params)
     return response.choices[0].message.content
 
+
 class JobDescription(BaseModel):
     text: str
+
 
 class ResumeFile(BaseModel):
     filename: str
     content: str
+
 
 class IngestInputsRequest(BaseModel):
     job_description: JobDescription
@@ -88,6 +92,7 @@ class JobDescription(BaseModel):
     requirements: list[str]
     responsibilities: list[str]
 
+
 @app.post("/ingest_inputs")
 async def ingest_inputs(request: IngestInputsRequest):
     job_desc_text = request.job_description.text
@@ -95,7 +100,9 @@ async def ingest_inputs(request: IngestInputsRequest):
     # If the job description is a URL, scrape it for markdown data
     if job_desc_text.startswith("http"):
         try:
-            result = firecrawl_app.scrape_url(job_desc_text, params={"formats": ["markdown"]})
+            result = firecrawl_app.scrape_url(
+                job_desc_text, params={"formats": ["markdown"]}
+            )
             if not result or "markdown" not in result:
                 raise ValueError("Scraping did not return markdown data.")
             job_desc_text = result.get("markdown", "")
@@ -111,10 +118,12 @@ async def ingest_inputs(request: IngestInputsRequest):
         try:
             pdf_bytes = base64.b64decode(base64_str)
         except Exception as e:
-            resumes.append({
-                "filename": file.filename,
-                "error": f"Base64 decoding error: {e}",
-            })
+            resumes.append(
+                {
+                    "filename": file.filename,
+                    "error": f"Base64 decoding error: {e}",
+                }
+            )
             continue
 
         # Use a BytesIO stream instead of writing to disk
@@ -124,11 +133,14 @@ async def ingest_inputs(request: IngestInputsRequest):
             pdf_text = " ".join(page.extract_text() or "" for page in pdf_reader.pages)
         except Exception as e:
             pdf_text = f"Error processing PDF: {e}"
-        resumes.append({
-            "filename": file.filename,
-            "text": pdf_text,
-        })
+        resumes.append(
+            {
+                "filename": file.filename,
+                "text": pdf_text,
+            }
+        )
     return {"job_description": job_desc_text, "resumes": resumes}
+
 
 @app.post("/parse_job_description")
 async def parse_job_description(data: dict):
@@ -163,14 +175,15 @@ async def parse_job_description(data: dict):
 
     return structured_jd
 
+
 @app.post("/parse_resumes")
 async def parse_resumes(data: dict):
     resume_files = data.get("resume_files", [])
     parsed_resumes = []
 
     for resume in resume_files:
-        
-        pdf_text = resume['text']
+
+        pdf_text = resume["text"]
         print(pdf_text)
         messages = [
             {
@@ -198,6 +211,7 @@ async def parse_resumes(data: dict):
         parsed_resumes.append(parsed_resume)
 
     return {"parsed_resumes": parsed_resumes}
+
 
 @app.post("/score_candidates")
 async def score_candidates(data: dict):
@@ -246,6 +260,7 @@ async def score_candidates(data: dict):
 
     return candidate_scores
 
+
 @app.post("/rank_candidates")
 async def rank_candidates(data: dict):
     candidate_scores = data.get("candidate_scores", [])
@@ -256,22 +271,25 @@ async def rank_candidates(data: dict):
         overall = candidate.get("overall", 0)
         candidate["avg_score"] = (relevance + experience + skills + overall) / 4.0
 
-    return sorted(candidate_scores, key=lambda candidate: candidate["avg_score"], reverse=True)
+    return sorted(
+        candidate_scores, key=lambda candidate: candidate["avg_score"], reverse=True
+    )
+
 
 @app.post("/generate_email_templates")
 async def generate_email_templates(data: dict):
     candidate = data.get("candidate")
     job_description = data.get("job_description")
     email_type = data.get("email_type")
-    
+
     if not candidate or not job_description or not email_type:
         raise HTTPException(
             status_code=400,
-            detail="Missing one or more required fields: candidate, job_description, email_type"
+            detail="Missing one or more required fields: candidate, job_description, email_type",
         )
 
     candidate_name = candidate.get("name", "Candidate")
-    
+
     # Build the messages for the LLM based on the email type
     messages = [
         {
@@ -314,7 +332,7 @@ async def generate_email_templates(data: dict):
     else:
         raise HTTPException(
             status_code=400,
-            detail="Invalid email_type. Must be either 'accept' or 'reject'."
+            detail="Invalid email_type. Must be either 'accept' or 'reject'.",
         )
 
     try:
@@ -324,7 +342,8 @@ async def generate_email_templates(data: dict):
 
     return {"email_body": email_body}
 
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
 
+    uvicorn.run(app, host="0.0.0.0", port=8000)

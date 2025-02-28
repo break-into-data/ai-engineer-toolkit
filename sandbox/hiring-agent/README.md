@@ -1,3 +1,11 @@
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.78.0-blue.svg)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-13.0+-000000.svg)](https://nextjs.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT4-00A67E.svg)](https://openai.com/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 # Resume Screening Application
 
 This application helps recruiters screen and rank resumes based on job descriptions using AI.
