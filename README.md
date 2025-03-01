@@ -25,7 +25,7 @@ You will find every popular framework, tool, and resource to ship one AI project
 Explore the table below to find the right tools for your AI projects.   
 Each category includes cost details, use cases, and links to official documentation.  
 
-
+ 
 <br>
 
 | Category            | Tool Name                | Cost Model    | Use Case                                  | Link                                       |
