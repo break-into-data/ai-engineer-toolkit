@@ -15,7 +15,9 @@ You will find every popular framework, tool, and resource to ship one AI project
   
 - If you need **inspiration**, check out example projects inside the [sandbox](./sandbox). 
   
-- If you are **ready to build**, check out the table below. 
+- If you are **ready to build**, check out the table below.
+  
+- If you want **more guidance**, check out the upcoming [AI Engineering Bootcamp](https://voracious-comet-42b.notion.site/Build-AI-Systems-from-Day-1-19df455c6e8e804691e9cbf1053bc7a4)) 
 
 
 <br>
