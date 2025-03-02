@@ -17,7 +17,7 @@ You will find every popular framework, tool, and resource to ship one AI project
   
 - If you are **ready to build**, check out the table below.
   
-- If you want **more guidance**, check out the upcoming [AI Engineering Bootcamp](https://voracious-comet-42b.notion.site/Build-AI-Systems-from-Day-1-19df455c6e8e804691e9cbf1053bc7a4) that starts on March 10th, 2025.  
+- If you want **more guidance**, check out the upcoming [AI Engineering Bootcamp](https://dub.sh/Z0JHySz) that starts on March 10th, 2025.  
 
 
 <br>
