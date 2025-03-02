@@ -108,3 +108,5 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | Docker                   | Open-Source   | Containerize apps for consistent deployment | [Docker](https://docs.docker.com/)         |
 |                      | Kubernetes               | Open-Source   | Orchestrate and scale containerized apps  | [Kubernetes](https://kubernetes.io/docs/)  |
 |                      | Heroku                   | Freemium      | Quick deployment for prototypes and MVPs  | [Heroku](https://devcenter.heroku.com/)    |
+|                      | Render                   | Freemium      | Build, deploy, and scale your apps with ease  | [Render](https://render.com/docs/) |
+
