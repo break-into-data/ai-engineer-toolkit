@@ -78,6 +78,7 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | AG2 (AgentGraph)         | Open-Source   | Multi-agent orchestrators              | [AG2](https://github.com/agentgraph/ag2)  |
 |                      | CrewAI                   | Open-Source   | Multi-agent workflows for automation      | [CrewAI](https://docs.crewai.com/)           |
 |                      | AutoGen                  | Open-Source   | Conversational agents with flexibility    | [AutoGen](https://microsoft.github.io/autogen/) |
+|                      | Wetrocloud                  | Paid API   | RAG development with any resource type (YouTube, web, doc, json, etc.)    | [Wetrocloud](https://wetrocloud.com/) |
 | 🕸️ **Web Data Access**  |                          |               |                                           |                                            |
 |                      | Firecrawl                | Freemium      | Web scraping with caching                 | [Firecrawl](https://firecrawl.dev/)             |
 |                      | Jina AI Reader API       | Freemium      | Extract structured data from web pages    | [Jina AI](https://jina.ai/reader)             |
