@@ -1,0 +1,8 @@
+streamlit
+openai
+firecrawl
+PyPDF2
+python-dotenv
+pydantic
+fastapi
+uvicorn
