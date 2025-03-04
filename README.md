@@ -82,7 +82,7 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | Firecrawl                | Freemium      | Web scraping with caching                 | [Firecrawl](https://firecrawl.dev/)             |
 |                      | Jina AI Reader API       | Freemium      | Extract structured data from web pages    | [Jina AI](https://jina.ai/reader)             |
 |                      | Puppeteer                | Open-Source   | Dynamic content scraping via browser      | [Puppeteer](https://pptr.dev/)                  |
-|                      | Scrapy                   | Open-Source   | Powerful web crawling framework           | [Scrapy](https://docs.scrapy.org/)           |
+|                      | Crawlee-Python                   | Open-Source   | A web scraping and browser automation library to build reliable crawlers in Python           | [Crawlee-Python](https://github.com/apify/crawlee-python)           |
 | 🤔 **Evaluation Frameworks** |                     |               |                                           |                                            |
 |                      | RAGAS                    | Open-Source   | Evaluate RAG pipelines                    | [RAGAS](https://docs.ragas.io/)             |
 |                      | DeepEval                 | Open-Source   | Custom metrics for LLM evaluation         | [DeepEval](https://docs.deepeval.com/)         |
