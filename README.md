@@ -75,7 +75,7 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | PyTorch Lightning        | Open-Source   | Structured fine-tuning with PyTorch       | [PyTorch Lightning](https://lightning.ai/docs/pytorch)  |
 | 🤖 **Agent Development**|                          |               |                                           |                                            |
 |                      | LangGraph                | Open-Source   | Stateful agents with LangChain            | [LangGraph](https://langchain-ai.github.io/langgraph/) |
-|                      | AG2 (AgentGraph)         | Open-Source   | Multi-agent orchestrators              | [AG2](https://github.com/agentgraph/ag2)  |
+|                      | AG2 (AgentGraph)         | Open-Source   | Multi-agent orchestrators              | [AG2](https://github.com/ag2ai/ag2)  |
 |                      | CrewAI                   | Open-Source   | Multi-agent workflows for automation      | [CrewAI](https://docs.crewai.com/)           |
 |                      | AutoGen                  | Open-Source   | Conversational agents with flexibility    | [AutoGen](https://microsoft.github.io/autogen/) |
 | 🕸️ **Web Data Access**  |                          |               |                                           |                                            |
