@@ -17,7 +17,7 @@ You will find every popular framework, tool, and resource to ship one AI project
   
 - If you are **ready to build**, check out the table below.
   
-- If you want **more guidance**, check out the upcoming [Agent Engineering Bootcamp](https://eng.framer.ai/) that starts on March 10th, 2025.  
+- If you want **more guidance**, check out the upcoming [Agent Engineering Bootcamp](https://eng.framer.ai/) that starts on June 12th, 2025.  
 
 
 <br>
