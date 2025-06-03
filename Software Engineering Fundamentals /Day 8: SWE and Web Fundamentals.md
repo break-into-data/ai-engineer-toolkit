@@ -147,4 +147,3 @@ Key Components:
 
 ---
 
-### 🚀 Later in the bootcamp, this is the pipeline you’ll use to capture user input, process it using LLMs, and return AI results.
