@@ -107,14 +107,6 @@ While **Vercel** is perfect for fast, frontend-first AI apps, here are other opt
 | Enterprise use or scaling large systems | **AWS / GCP + K8s** | Professional-grade infra, enterprise use cases |
 | Quick AI demos or interactive UIs | **Streamlit / Gradio** | Zero config, fast sharing |
 
-### 🚀 Real-World Applications
-
-By the end of the bootcamp, you'll get in-depth insights into the inner workings of applications like:
-
-- A document analysis system that can answer questions about uploaded PDFs
-- A personalized AI assistant that remembers past interactions
-- A content generation tool with guardrails and safety measures
-- A multimodal application that processes both text and images
 
 AND MUCH MORE!
 
