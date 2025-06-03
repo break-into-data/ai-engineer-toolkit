@@ -45,9 +45,9 @@ By completing this module, you'll be able to:
 
 Further Reading: https://www.fullstackfoundations.com/blog/client-side-vs-server-side
 
-![ChatGPT Image May 1, 2025, 02_04_07 PM.png](attachment:a0babb6c-da2f-4709-ade3-4532eb578ce3:ChatGPT_Image_May_1_2025_02_04_07_PM.png)
+![ChatGPT Image May 1, 2025, 02_04_07 PM](https://github.com/user-attachments/assets/d4755402-bd4e-44c2-841c-95b0df007513)
 
-![Screenshot 2025-04-19 at 12.22.25 PM.png](attachment:c50649f1-f57d-4b39-9e04-9f545c3b0bc1:Screenshot_2025-04-19_at_12.22.25_PM.png)
+![Screenshot 2025-04-19 at 12 22 25 PM](https://github.com/user-attachments/assets/05df2523-b748-4be4-bfe5-a96ec8bacf62)
 
 *Image Resource: https://medium.com/@donotapply/client-side-vs-server-side-whats-the-difference-a933341cd60e*
 
