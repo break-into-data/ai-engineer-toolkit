@@ -119,6 +119,3 @@ You’ve just explored one of the most critical choices in modern AI systems—*
 
 Tomorrow, we’ll dive into how to **build agents using the OpenAI SDK**, with a focus on **tool use and retrieval-augmented generation (RAG)** to supercharge your agent’s capabilities.
 
-[**Join the Bootcamp Now**](https://www.notion.so/Day-1-What-are-AI-Agents-595fb7d80cc4474493498da663a3aca1?pvs=21) and start bringing your intelligent systems to life.
-
-Let’s make agents that don’t just follow scripts—but lead.
