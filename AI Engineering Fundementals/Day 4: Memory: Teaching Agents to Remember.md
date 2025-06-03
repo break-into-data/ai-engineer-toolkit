@@ -6,7 +6,8 @@ Yesterday we learned about **Retrieval-Augmented Generation (RAG),** today we wi
 
 ## Short-Term vs Long-Term Memory – keeping today and tomorrow in sync
 
-![ChatGPT Image Apr 30, 2025, 11_16_08 AM.png](attachment:d6d05e19-78dc-42cc-8689-3d900bd9c84a:ChatGPT_Image_Apr_30_2025_11_16_08_AM.png)
+![ChatGPT Image Apr 30, 2025, 11_16_08 AM](https://github.com/user-attachments/assets/dccd4ceb-ba61-417a-821e-d1988d2c61fe)
+
 
 ### What short-term memory does
 
@@ -99,7 +100,7 @@ Encodes *how* to perform a task: skills, routines, decision trees.
 
 The agent can look at its own instructions, compare them with recent results, and ask, “Could this be clearer?” If the answer is yes, it updates its recipe—just like editing a cooking note after tasting the dish. OpenAI showed that this “self-review” doubled the number of bugs caught in a code-review experiment.
 
-![ChatGPT Image May 1, 2025, 03_38_37 PM.png](attachment:b32ce9c3-5a38-429c-bd6a-8c76ad8d3dbd:ChatGPT_Image_May_1_2025_03_38_37_PM.png)
+![ChatGPT Image May 1, 2025, 03_38_37 PM](https://github.com/user-attachments/assets/c9b19142-26ce-47ec-b67e-915dbd8dfc6f)
 
 ---
 
