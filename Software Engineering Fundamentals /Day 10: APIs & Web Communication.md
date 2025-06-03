@@ -261,3 +261,16 @@ flowchart TD
     Models <--> Storage
 
 ```
+This preparatory content has equipped you with the fundamentals of web applications, TypeScript, and APIs - all essential for building AI-powered applications.
+
+In the full bootcamp, we'll dive deeper and build complete AI applications with:
+
+- Beautiful, responsive user interfaces
+- Robust API layers
+- Integration with powerful AI services
+- Implement production best practices (error handling, testing, deployment)
+- Deploy your application to the cloud
+
+You’ll soon create a beautiful AI app that fetches responses from an LLM via your own API endpoints and shows them in a slick UI.
+
+**Can't wait to see what you'll build!**
