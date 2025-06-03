@@ -126,4 +126,3 @@ Storing memories is only half the job; retrieving and **grounding** them in an L
 
 Short-term buffers keep conversations coherent and cheap; long-term stores deliver personalization, analytics, and lifelong learning. Organize them into semantic, episodic, and procedural layers, then back each layer with the right tools—graphs for rules, SQL for logs, vectors for fuzzy recall, RAG to pull it all together—and you transform a clever demo into a durable product.
 
-Ready to build the full stack live, with mentors on hand and real metrics on-screen? **Seats for the next AI Engineering Bootcamp cohort are limited—grab yours while they’re still available.**
