@@ -103,10 +103,8 @@ Software components that connect different application parts:
 Further reading on Middleware - https://srivastavayushmaan1347.medium.com/understanding-middlewares-a-comprehensive-guide-with-practical-examples-c80383f888d5
 
 **Different Layers of Modern Web Application Architecture**
+![Screenshot 2025-04-19 at 12 34 58 PM](https://github.com/user-attachments/assets/b8e3b51f-6257-472a-a78f-c417693d8d41)
 
-![ChatGPT Image May 1, 2025, 02_07_23 PM.png](attachment:b35f582b-586d-47aa-b59d-61daefd9b5a1:ChatGPT_Image_May_1_2025_02_07_23_PM.png)
-
-![Screenshot 2025-04-19 at 12.34.58 PM.png](attachment:38caae34-cd8c-4465-ac13-d633ff54a098:Screenshot_2025-04-19_at_12.34.58_PM.png)
 
 *Image Resource:* https://www.sayonetech.com/blog/web-application-architecture/
 
@@ -118,54 +116,18 @@ Reading - [System Design Basics](https://dev.to/kaustubhyerkade/system-design-fu
 
 Key Components:
 
-```mermaid
-graph TD
-    A[Client Application] -->|API Requests| B[API Gateway]
-    B -->|Routes Requests| C[Application Servers]
-    C -->|Read/Write Data| D[Database]
-    C -->|Process| E[AI/ML Services]
-    C -->|Store Files| F[File Storage]
-    C -->|Cache Results| G[Cache]
+![image (12)](https://github.com/user-attachments/assets/1b0c0fd1-c46f-41c3-87e3-a942d18dbaa9)
 
-```
-
-![image.png](attachment:88614462-e72d-40d7-bf8b-6555d2384d32:image.png)
 
 ### Basic Application Data Flow:
 
-```mermaid
-sequenceDiagram
-    participant User
-    participant Frontend
-    participant Backend API
-    participant Database
+![image (13)](https://github.com/user-attachments/assets/4ac4179a-c674-4af7-9116-3f97d07f0eaf)
 
-    User->>Frontend: Makes request (click button)
-    Frontend->>Backend API: Sends API request
-    Backend API->>Database: Queries data
-    Database->>Backend API: Returns data
-    Backend API->>Frontend: Sends formatted response
-    Frontend->>User: Updates UI with results
-
-```
-
-![image.png](attachment:c5a4c985-665b-4bf5-b7b7-6be15313fc9f:image.png)
 
 ### Example: AI-Powered Text Analysis App
 
-```mermaid
-graph LR
-    A[User] -->|"1.Submits text"| B[Web Interface]
-    B -->|"2.API Call"| C[Backend Server]
-    C -->|"3.Analyze request"| D[AI Text Analysis API]
-    D -->|"4.Results"| C
-    C -->|"5.Store results"| E[Database]
-    C -->|"6.Send response"| B
-    B -->|"7.Display analysis"| A
+![image (14)](https://github.com/user-attachments/assets/54dc89aa-6e0e-46b1-8026-936ab5fb0a84)
 
-```
-
-![image.png](attachment:4c1a2b41-d8e5-4239-996c-40a045132ad7:image.png)
 
 ### Practice Activities:
 
