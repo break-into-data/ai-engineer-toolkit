@@ -62,7 +62,8 @@ The Agents SDK already adds a *guardrail span* to each run, so if a response is 
 
 **Evaluations (evals)** provide an in-depth scorecard that uncovers safety risks, biases, and quality issues which real-time guardrails can’t catch. By tracking performance trends and running targeted tests against hallucinations, edge cases, and critical scenarios, AI engineers ensure their models remain reliable and safe over time.
 
-![ChatGPT Image Apr 30, 2025, 06_16_28 PM.png](attachment:13a82248-96b2-4093-a47b-fd7a77d629d7:ChatGPT_Image_Apr_30_2025_06_16_28_PM.png)
+![ChatGPT Image Apr 30, 2025, 06_16_28 PM](https://github.com/user-attachments/assets/9f7d08e8-12fa-423f-b3b2-15ef2a1ddd71)
+
 
 In our last AI Engineering Bootcamp, we partnered with a Machine Learning expert to conduct a live eval, building tests on the fly and using the dashboard insights to immediately refine our model’s behavior. **Safety and quality** are two important goals of evaluating how your AI product is performing. 
 
