@@ -64,8 +64,8 @@ basic_agent = Agent(
 ```
 
                           **
-
-![image.png](attachment:6554702d-8985-4abd-b3f6-03927f2ca03c:image.png)
+                          
+![image (5)](https://github.com/user-attachments/assets/b0426701-7844-4571-9975-4824490ac6f6)
 
 *Agent as a feedback loop with access to your custom environment*
 
@@ -83,7 +83,8 @@ Anthropic outlines five powerful workflow patterns that help LLM systems scale w
     
     Breaks down a complex task into multiple LLM calls, where the output of one step becomes the input for the next. Great for tasks that benefit from staged reasoning or transformation.
     
-    ![image.png](attachment:c60f8d7e-4205-4a22-a1b2-f88a058043af:image.png)
+![image (6)](https://github.com/user-attachments/assets/687db343-6291-4cb4-a34a-61985d562551)
+
     
 - **Parallelization**
     
@@ -93,25 +94,25 @@ Anthropic outlines five powerful workflow patterns that help LLM systems scale w
     - *Voting*: Runs the same task several times and picks the best answer.
     - 
 
-![image.png](attachment:75b5b4bd-8591-4248-a32b-8baee41df794:image.png)
+![image (7)](https://github.com/user-attachments/assets/f9bc502e-d35e-46e3-817e-3da4a5a5a320)
 
 - **Orchestrator–Workers**
     
     A main LLM (the orchestrator) assigns subtasks to worker LLMs. Unlike parallelization, subtasks are generated dynamically, depending on what the input requires.
     
-    ![image.png](attachment:a2c4ef0d-6712-4771-8592-ff9c82f2d854:image.png)
+![image (8)](https://github.com/user-attachments/assets/fd2f9bd2-5410-4dab-ada7-b7d045b2faa3)
     
 - **Evaluator–Optimizer**
     
     Think of this like peer review. One model generates, another evaluates, and the first improves its output based on feedback—just like a writer and editor.
     
-    ![image.png](attachment:7694e9df-8cf9-4972-9b64-d101f000df3d:image.png)
-    
+![image (9)](https://github.com/user-attachments/assets/8030bd64-b025-46fa-ba5d-936a0f1a9139)
+
 - **Routing**
     
     Classifies the user’s input and sends it down the right specialized workflow. This keeps performance high by customizing how different input types are handled.
     
-    ![image.png](attachment:25a2f368-a650-422b-98ad-eb3673cf4773:image.png)
+![image (10)](https://github.com/user-attachments/assets/e44dd9a3-a31d-4945-838f-9d374066c9de)
     
 
 You’ve just explored one of the most critical choices in modern AI systems—**agents vs. workflows**—and got a preview of the building blocks that bring them to life.
