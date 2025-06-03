@@ -1,4 +1,4 @@
-his module will help you get fully set up with your developer environment, regardless of your technical background, critical for success in modern AI engineering.
+This module will help you get fully set up with your developer environment, regardless of your technical background, critical for success in modern AI engineering.
 
 ## 🎯 Learning Objectives
 
