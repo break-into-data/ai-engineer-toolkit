@@ -226,12 +226,3 @@ The returned JSON might look like:
 You can now loop over `steps` in your UI, showing one equation and its explanation at a time—perfect for guided tutoring.
 
 ---
-
-## What You’ll Master in the Bootcamp
-
-- **Prompt Design Playbook** – Turn fuzzy requirements into crystal-clear instructions, schemas, and validation hooks.
-- **Pattern Library** – Function-calling, few-shot, chain-of-thought, self-critique, and more.
-- **AI Coding Assistants** – Leverage **Cursor**, **GitHub Copilot**, and the OpenAI / Vertex playgrounds to iterate 10× faster.
-- **Automated Testing & CI** – Lint prompts, enforce JSON validity, and fail builds that spike token costs.
-
-Throughout the **upcoming AI Engineering bootcamp** you’ll practice prompt-engineering techniques—schema-driven function calls, few-shot scaffolding, self-critique loops, and automated regression tests—to translate real business requirements into deterministic, guard-railed AI interactions that drive production dashboards, email workflows, and multi-agent pipelines.
