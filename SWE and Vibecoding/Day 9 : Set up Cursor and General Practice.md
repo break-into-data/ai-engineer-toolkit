@@ -340,14 +340,3 @@ Try asking Cursor:
 - “Write a TypeScript function that capitalizes all letters in a string”
 - “Explain this code” (select any line)
 
-## 🚀 Next Steps: Your AI Product Engineering Journey
-
-This simple exercise is just the beginning of what you'll build in our AI Product Engineering Bootcamp! Building on these fundamental skills, you'll soon:
-
-### Through the Bootcamp, you’ll gain a hands-on understanding of:
-
-- **Full-stack AI applications** that leverage modern LLMs
-- **Intelligent chatbots** with memory and context awareness
-- **Vector databases** for semantic search and recommendation systems
-- **RAG** (Retrieval Augmented Generation) tools
-- **Production-ready AI systems** with proper authentication and security
