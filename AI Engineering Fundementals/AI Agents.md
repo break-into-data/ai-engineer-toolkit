@@ -172,7 +172,7 @@ Lilian Weng’s agent framework highlights 3 core parts:
 
 Together, these make agents flexible and capable of complex, real-time decision-making.
 
-![image.png](attachment:a286b64f-b423-43f5-8cb6-e781337695d2:image.png)
+![image (4)](https://github.com/user-attachments/assets/98506998-45b9-41bf-b059-d7373ff3ce27)
 
 ### Congratulations,
 
