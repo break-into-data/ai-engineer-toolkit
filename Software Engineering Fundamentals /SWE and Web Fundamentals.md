@@ -47,8 +47,6 @@ Further Reading: https://www.fullstackfoundations.com/blog/client-side-vs-server
 
 ![ChatGPT Image May 1, 2025, 02_04_07 PM](https://github.com/user-attachments/assets/d4755402-bd4e-44c2-841c-95b0df007513)
 
-![Screenshot 2025-04-19 at 12 22 25 PM](https://github.com/user-attachments/assets/05df2523-b748-4be4-bfe5-a96ec8bacf62)
-
 *Image Resource: https://medium.com/@donotapply/client-side-vs-server-side-whats-the-difference-a933341cd60e*
 
 ### The Request-Response Cycle:
