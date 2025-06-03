@@ -25,7 +25,7 @@ Let’s start with RAG—the secret sauce for making AI more accurate and reliab
 
 To see RAG in action, let’s look at this example
 
-![image.png](attachment:631faab7-adee-409b-9b49-0d0c5d945cef:image.png)
+![image (11)](https://github.com/user-attachments/assets/013d624c-e556-4a29-8c94-56e052943475)
 
 This diagram shows the core flow of Retrieval-Augmented Generation: a user submits a query, the system retrieves relevant data from connected sources, then combines that data with the query and passes it to the LLM. The model uses both the question and the retrieved context to generate a grounded, accurate response—closing the loop by sending the answer back to the user.
 
