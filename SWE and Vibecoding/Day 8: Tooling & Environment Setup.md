@@ -88,11 +88,8 @@ When coding, you’ll constantly be adding, renaming, and organizing files. Mast
 - **Collaboration Challenges**: Without version control, team members might overwrite each other's work or struggle to merge changes from multiple contributors.
 - **Backup & Recovery**: Provides a complete history that serves as both documentation and backup, allowing you to recover previous states if something goes wrong.
 - **Experimentation Safety**: Enables developers to try new ideas without fear, as they can always revert to previous working versions.
-    
-    ![Screenshot 2025-04-18 at 11.33.32 AM.png](attachment:6a356ac7-e75b-4706-9b68-0f95845cce1c:Screenshot_2025-04-18_at_11.33.32_AM.png)
-    
 
-![ChatGPT Image May 1, 2025, 02_12_01 PM.png](attachment:c665fc25-06bb-4a85-b1e5-cf841b3a37e7:ChatGPT_Image_May_1_2025_02_12_01_PM.png)
+![ChatGPT Image May 1, 2025, 02_12_01 PM](https://github.com/user-attachments/assets/d0b8c29f-463d-4cfd-8828-fdd66d3df784)
 
 **2. How Git Tracks Changes Over Time**
 
@@ -106,11 +103,11 @@ When coding, you’ll constantly be adding, renaming, and organizing files. Mast
 
 *Main and Development Branches*
 
-![Screenshot 2025-04-18 at 10.22.19 AM.png](attachment:2db6a455-3b36-465c-85bb-f1a61df9b3bf:Screenshot_2025-04-18_at_10.22.19_AM.png)
+![ChatGPT Image May 1, 2025, 02_22_51 PM](https://github.com/user-attachments/assets/bf6ca8da-4a4b-4053-adfb-efa65a3474b8)
 
 *Image Resource: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow*
 
-![ChatGPT Image May 1, 2025, 02_22_51 PM.png](attachment:0d1c94d7-f778-4dbb-8663-346b3bddc3fb:ChatGPT_Image_May_1_2025_02_22_51_PM.png)
+
 
 ### Installing Git
 
@@ -246,11 +243,9 @@ git pull origin main
 
 [Git Command Cheatsheet](https://www.notion.so/Git-Command-Cheatsheet-1d9b8a917a99806ebc7ed6934c3b547b?pvs=21)
 
-![Screenshot 2025-04-18 at 10.18.18 AM.png](attachment:99f25724-89d9-4560-af5b-a5d75ba721af:Screenshot_2025-04-18_at_10.18.18_AM.png)
+![image (15)](https://github.com/user-attachments/assets/f0007400-45b0-4cfc-9d66-65bbcebd3bf0)
 
 *Image Resource: https://dzone.com/articles/git-tutorial-commands-and-operations-in-git*
-
-![image.png](attachment:22880407-d286-4f43-9b93-2675400c58a0:image.png)
 
 ## Additional software engineering practice concepts
 
