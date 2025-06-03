@@ -33,7 +33,8 @@ Once your RAG or agent-based tool is working locally, you’ll:
 
 Need to hide secret keys (like OpenAI keys)? You’ll store them securely in Vercel’s **Environment Variables** dashboard.
 
-![image.png](attachment:62255136-4774-4f1f-898c-51177c133901:image.png)
+![image (16)](https://github.com/user-attachments/assets/47669380-f65f-40d5-97e3-09658db1aab0)
+
 
 ## 🧱 Other Deployment Options (What Comes After Vercel?)
 
