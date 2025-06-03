@@ -173,13 +173,3 @@ Lilian Weng’s agent framework highlights 3 core parts:
 Together, these make agents flexible and capable of complex, real-time decision-making.
 
 ![image (4)](https://github.com/user-attachments/assets/98506998-45b9-41bf-b059-d7373ff3ce27)
-
-### Congratulations,
-
-You’ve just taken the first step into the world of AI agents—and things are only going to get more exciting from here.
-
-Tomorrow, we’ll unpack one of the most important distinctions in modern AI design: **Agents vs. Workflows**. You’ll learn when to use each, how to spot the difference, and why it matters for building scalable, intelligent systems.
-
-[**Join the Bootcamp Now**](https://www.notion.so/Day-1-What-are-AI-Agents-595fb7d80cc4474493498da663a3aca1?pvs=21) and start designing the future—one decision-making machine at a time.
-
-Let’s make agents that don’t just respond—but reason.
