@@ -89,4 +89,3 @@ This agent is equipped with two powerful tools—**WebSearchTool** and **FileSea
 You’ve just leveled up your agents with two game-changing capabilities—RAG and tool use—turning them into systems that can access real-time information and take meaningful action.
 Tomorrow, we’ll explore another critical ingredient: memory. You’ll learn how to teach your agents to remember past interactions, retain long-term context, and build smarter, more personal experiences.
 
-Join the Bootcamp Now and keep building agents that don’t just respond—but evolve.
