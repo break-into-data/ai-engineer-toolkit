@@ -108,6 +108,3 @@ Tracing, guardrails, and evals form a simple loop:
 
 The **OpenAI Agents SDK** switches tracing on by default, lets you add guardrails in one decorator, and exports span data ready for evaluation tools [OpenAI GitHub](https://openai.github.io/openai-agents-python/config/?utm_source=chatgpt.com). Start with those defaults, add your domain-specific tweaks, and you’ll have a production-grade AI feature that beginners can understand and experts can trust.
 
-Ready to learn the deeper details? **Join the upcoming AI Engineering Bootcamp here.**
-
-Join us and turn these ideas into code!
