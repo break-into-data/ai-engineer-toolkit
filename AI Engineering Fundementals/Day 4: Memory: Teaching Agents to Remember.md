@@ -1,5 +1,3 @@
-#**Day 4: Memory: Teaching Agents to Remember**
-
 ## **Why Memory Is the Backbone of Agentic AI**
 
 Spinning up a chat demo in 2025 is easy; shipping an *agent* that remembers why the user came, adapts on the fly, and closes the loop on real-world tasks is the hard part—and that’s exactly the leap our **AI Engineering Bootcamp** is designed to teach.
