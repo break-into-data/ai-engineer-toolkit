@@ -11,7 +11,9 @@ You will find every popular framework, tool, and resource to ship one AI project
 
 ## Getting Started
 
-- If you are **new to software engineering** check out the free [14-Day AI Engineering](https://breakintodata.beehiiv.com/c/free-ai-course) Fundamentals Course  
+- If you are **new to AI engineering** check out [AI Engineering Fundementals](./AI%Engineering%Fundementals)  
+
+- If you are **new to software engineering** check out [SWE Fundamentals](./SWE%Fundamentals)
   
 - If you need **inspiration**, check out example projects inside the [sandbox](./sandbox). 
   
