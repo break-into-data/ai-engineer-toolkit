@@ -11,7 +11,7 @@ You will find every popular framework, tool, and resource to ship one AI project
 
 ## Getting Started
 
-- If you want to learn Agent Engineering Fundamentals, check out [Full stack Agent Engineer Fundementals](./Agent%20Engineering%20Fundementals) 
+- If you want to learn Agent Engineering Fundamentals, check out [Full stack Agent Engineer Fundementals](./Agent%20Engineering%20Fundamentals) 
 
 - If you are **new to AI engineering** check out [AI Engineering Fundementals](./AI%20Engineering%20Fundementals)  
 
