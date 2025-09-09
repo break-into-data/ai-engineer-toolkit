@@ -94,9 +94,8 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | DeepEval                 | Open-Source   | Custom metrics for LLM evaluation         | [DeepEval](https://docs.deepeval.com/)         |
 |                      | LangSmith                | Freemium      | Debug and evaluate LLM apps               | [LangSmith](https://docs.smith.langchain.com/)  |
 |                      | TruLens                  | Open-Source   | Ground truth evaluation for LLMs          | [TruLens](https://trulens.org/)               |
-|                      | AgentEvals               | Open-source   | A collection of evaluators for agent steps | [AgentEvals](https://github.com/langchain-ai/agentevals)
-|                      | LMUnit               | Open-source   | Language model optimized for evaluating natural language unit tests | [LMUnit](https://docs.contextual.ai/api-reference/lmunit/lmunit)
-                       
+|                      | AgentEvals               | Open-source   | A collection of evaluators for agent steps | [AgentEvals](https://github.com/langchain-ai/agentevals)   |   
+|                      | LMUnit                   | Open-source   | Language model optimized for evaluating natural language unit tests | [LMUnit](https://docs.contextual.ai/api-reference/lmunit/lmunit) |                       
 | 📊 **Monitoring & Logging** |                     |               |                                           |                                            |
 |                      | LangSmith                | Freemium      | Monitor and trace LLM applications        | [LangSmith](https://docs.smith.langchain.com/)  |
 |                      | Sentry                   | Freemium      | Real-time error tracking                  | [Sentry](https://docs.sentry.io/)            |
