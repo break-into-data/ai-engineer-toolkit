@@ -83,6 +83,7 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | CrewAI                   | Open-Source   | Multi-agent workflows for automation      | [CrewAI](https://docs.crewai.com/)           |
 |                      | AutoGen                  | Open-Source   | Conversational agents with flexibility    | [AutoGen](https://microsoft.github.io/autogen/) |
 |                      | Wetrocloud                  | Paid API   | RAG development with any resource type (YouTube, web, doc, json, etc.)    | [Wetrocloud](https://wetrocloud.com/) |
+|                      | Contextual AI                  | Paid API   | End-to-end RAG including document understanding, retrieval, grounded generation, and evaluation    | [Contextual AI](https://contextual.ai) |
 | 🕸️ **Web Data Access**  |                          |               |                                           |                                            |
 |                      | Firecrawl                | Freemium      | Web scraping with caching                 | [Firecrawl](https://firecrawl.dev/)             |
 |                      | Jina AI Reader API       | Freemium      | Extract structured data from web pages    | [Jina AI](https://jina.ai/reader)             |
@@ -93,7 +94,8 @@ Each category includes cost details, use cases, and links to official documentat
 |                      | DeepEval                 | Open-Source   | Custom metrics for LLM evaluation         | [DeepEval](https://docs.deepeval.com/)         |
 |                      | LangSmith                | Freemium      | Debug and evaluate LLM apps               | [LangSmith](https://docs.smith.langchain.com/)  |
 |                      | TruLens                  | Open-Source   | Ground truth evaluation for LLMs          | [TruLens](https://trulens.org/)               |
-|                      | AgentEvals               | Open-source   | A collection of evaluators for agent steps | [AgentEvals](https://github.com/langchain-ai/agentevals)
+|                      | AgentEvals               | Open-source   | A collection of evaluators for agent steps | [AgentEvals](https://github.com/langchain-ai/agentevals)   |   
+|                      | LMUnit                   | Open-source   | Language model optimized for evaluating natural language unit tests | [LMUnit](https://docs.contextual.ai/api-reference/lmunit/lmunit) |                       
 | 📊 **Monitoring & Logging** |                     |               |                                           |                                            |
 |                      | LangSmith                | Freemium      | Monitor and trace LLM applications        | [LangSmith](https://docs.smith.langchain.com/)  |
 |                      | Sentry                   | Freemium      | Real-time error tracking                  | [Sentry](https://docs.sentry.io/)            |
